@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-left">
+          <span class="brand-name">Sushant Awalekar</span>
+        </div>
+        <div class="nav-right">
+          <a href="#home"><i class="fa fa-home"></i> Home</a>
+          <a href="#about"><i class="fa fa-user"></i> About</a>
+          <a href="#techstack"><i class="fa fa-cubes"></i> Skills</a>
+          <a href="#awards"
+            ><i class="fa fa-trophy"></i> Awards & Certifications</a
+          >
+          <a href="#projects-preview"
+            ><i class="fa fa-folder-open"></i> Projects</a
+          >
+          <a href="extracurricular.html"><i class="fa fa-users"></i> Activities</a>
+          <a href="#connect"><i class="fa fa-envelope"></i> connect</a>
+        </div>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="#home"><i class="fa fa-home"></i> Home</a>
+        <a href="#about"><i class="fa fa-user"></i> About</a>
+        <a href="#techstack"><i class="fa fa-cubes"></i> Tech Stack</a>
+        <a href="#awards"
+          ><i class="fa fa-trophy"></i> Awards & Certifications</a
+        >
+        <a href="#projects-preview"
+          ><i class="fa fa-folder-open"></i> Projects</a
+        >
+        <a href="extracurricular.html"><i class="fa fa-users"></i> Activities</a>
+        <a href="#connect"><i class="fa fa-envelope"></i> Contact</a>
+      </div>
+      <div class="mobile-overlay" id="mobile-overlay"></div>
+    </header>
+
+<section id="home">
+  <div class="main-container">
+    <div class="left-info">
+      <section>
+        <h1>Hey, I'm Sushant 👋</h1>
+        <p id="typing-text">Full Stack Developer | Node.js | MongoDB | React</p>
+        <br />
+        <h6>
+          💡 Tech Innovator & Problem Solver | Web Dev Enthusiast |
+          👨‍💻 Skilled in Full-Stack Development | 🎯 4× Tech Competition Winner
+          (TKIET & NIT) | 🚀 Future Full-Stack Developer
+        </h6>
+      </section>
+    </div>
+    <div class="right-image">
+      <img
+        src="https://i.postimg.cc/NfScMCLn/sushant-gibly.png"
+        alt="sushant-gibly"
+      />
+    </div>
+  </div>
+
+  <div class="contact-container">
+    <h2><i class="fas fa-paper-plane"></i> Connect with me</h2>
+    <p class="contact-subtitle">
+      Feel free to reach out for collaborations, projects, or just a chat!
+    </p>
+    <div class="contact-btn-row">
+      <a href="#connect" class="contact-btn">
+        <i class="fas fa-envelope"></i> Get In Touch
+      </a>
+      <a href="/resume/SUSHANT BHAIRU AWALEKA1.pdf" class="contact-btn">
+        <i class="fas fa-file-alt"></i> View My Resume
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="header-content">
+        <div class="about-icon">
+          <i class="fas fa-user"></i>
+        </div>
+        <h2>About Me</h2>
+        <div class="header-underline"></div>
+      </div>
+    </div>
+
+    <div class="about-content-wrapper">
+      <div class="about-photo">
+        <div class="photo-container">
+          <img src="https://i.postimg.cc/NfScMCLn/sushant-gibly.png" alt="Sushant Awalekar" class="profile-photo">
+          <div class="photo-overlay">
+            <div class="photo-info">
+              <h3>Sushant Bhairu Awalekar</h3>
+              <p>Full Stack Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-text">
+        <div class="about-intro">
+          <h3>Hello! I'm Sushant 👋</h3>
+          <p class="intro-text">
+            A passionate <strong>B.Tech Computer Science</strong> student at <strong>TKIET Warananagar</strong> with a drive for innovation and problem-solving.
+          </p>
+        </div>
+        
+        <div class="about-details">
+          <p>
+            After scoring 56% in my 12th, I committed myself to growth, learning, and skill development. I've built a strong foundation
+            in programming, full-stack development, and problem-solving through self-driven projects and continuous learning.
+          </p>
+          <p>
+            I'm deeply passionate about <strong>AI, web development, and digital transformation</strong>. I enjoy building tech that makes a real difference.
+            My goal is to become a skilled <strong>Full-Stack Developer</strong> who contributes to meaningful, inclusive, and innovative digital solutions.
+          </p>
+          <p>
+            I'm always exploring new technologies, seeking opportunities to grow, and working on projects that challenge my thinking. Whether it's
+            developing apps, solving problems, or learning new frameworks, I'm constantly pushing myself forward.
+          </p>
+        </div>
+        
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <i class="fas fa-graduation-cap"></i>
+            <span>B.Tech Computer Science</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-university"></i>
+            <span>TKIET Warananagar</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-code"></i>
+            <span>Full Stack Developer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="techstack" class="techstack-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="header-content">
+        <i class="fas fa-cogs techstack-icon"></i>
+        <h2>My Technical Arsenal</h2>
+      </div>
+      <div class="header-underline"></div>
+    </div>
+
+<div class="tech-stack-section">
+  <div class="container">
+    <div class="tech-stack-container">
+      <div class="tech-stack-categories">
+        <button class="tech-cat-btn active" data-category="688addbc21727cf67f1e8a2b">
+          <span>👨‍💻</span> Programming &amp; dev
+        </button>
+        <button class="tech-cat-btn" data-category="688adf0421727cf67f1e8ae8">
+          <span>⚙️</span> Framework  and Tools
+        </button>
+        <button class="tech-cat-btn" data-category="688ae03b21727cf67f1e8b03">
+          <span>👨‍💼</span> Professional skills
+        </button>
+      </div>
+      
+      <div class="tech-stack-details">
+        <!-- Programming & dev -->
+        <div class="tech-cat-content" id="688addbc21727cf67f1e8a2b" style="display: block;">
+          <span class="tech-item">C</span>
+          <span class="tech-item">C++</span>
+          <span class="tech-item">Python</span>
+          <span class="tech-item">HTML</span>
+          <span class="tech-item">CSS</span>
+          <span class="tech-item">JavaScript</span>
+          <span class="tech-item">Data Structure</span>
+          <span class="tech-item">Competitive Programming</span>
+        </div>
+        <!-- Framework and Tools -->
+        <div class="tech-cat-content" id="688adf0421727cf67f1e8ae8" style="display: none;">
+          <span class="tech-item">Node.js</span>
+          <span class="tech-item">MongoDB</span>
+          <span class="tech-item">git &amp; github</span>
+        </div>
+        <!-- Professional skills -->
+        <div class="tech-cat-content" id="688ae03b21727cf67f1e8b03" style="display: none;">
+          <span class="tech-item">Logical Reasoning &amp; Critical Thinking</span>
+          <span class="tech-item">Time Management</span>
+          <span class="tech-item">Event Planning &amp; Team Coordination</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="tech-stack-btn-row">
+      <a href="/full_tech_stack.html" class="tech-stack-view-btn">
+        <i class="fas fa-search"></i> View Full Tech Stack
+      </a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+<section id="awards" class="awards-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="header-content">
+        <i class="fas fa-trophy trophy-icon"></i>
+        <h2>Awards & Certifications</h2>
+      </div>
+      <div class="header-underline"></div>
+    </div>
+
+    <div class="awards-grid">
+  <!-- Achievement 1 -->
+  <div class="award-card">
+    <div class="award-image">
+      <img
+        src="https://media.licdn.com/dms/image/v2/D4D22AQGyc796V3jJQA/feedshare-shrink_2048_1536/B4DZYORdmqGwA0-/0/1743996198914?e=1756944000&v=beta&t=twUh8gzsifQQgU1_QfTnOKNmin9c04yXaO4Tq8pcr4g"
+        alt="National-Level Success: Code Aura, DIGIFEST 2025"
+        onerror="this.parentElement.innerHTML='<div class=\'placeholder-image\'><i class=\'fas fa-trophy\'></i><p>Award Image</p></div>'"
+      />
+    </div>
+    <div class="award-content">
+      <h3 class="award-title">National-Level Success: Code Aura, DIGIFEST 2025</h3>
+      <p class="award-event">DIGIFEST 2025 — a National Level Technical Symposium organized by New Institute of Technology, Kolhapur. ✨🎓</p>
+      <p class="award-description">I participated in DIGIFEST 2025, a National Level Technical Symposium organized by NIT Kolhapur, where me and my partner Pruthviraj Patil secured the Second Runner-Up 🏆 position in the Code Aura event. The competition included rounds on MCQs, Debugging, and Real-time Problem Solving, testing our coding skills in C language. This achievement enhanced my problem-solving, logical thinking, and time management abilities.</p>
+      <div class="award-details">
+        <span class="award-category">Competition</span>
+        <span class="award-date">2025</span>
+      </div>
+    </div>
+  </div>
+  <!-- Achievement 2 -->
+  <div class="award-card">
+    <div class="award-image">
+      <img
+        src="https://media.licdn.com/dms/image/v2/D5622AQFjieT5RTKOVg/feedshare-shrink_800/B56ZXdfzoVGcAk-/0/1743177863905?e=1757548800&v=beta&t=vQi71m8ZbHo00jHmf4SyHotB1wHVcwYdgjt0pYw-4xQ"
+        alt="National-Level Achievement in Code Desk – TECHNOPARV 2K25"
+        onerror="this.parentElement.innerHTML='<div class=\'placeholder-image\'><i class=\'fas fa-trophy\'></i><p>Award Image</p></div>'"
+      />
+    </div>
+    <div class="award-content">
+      <h3 class="award-title">National-Level Achievement in Code Desk – TECHNOPARV 2K25</h3>
+      <p class="award-event">Code Desk competition at TECHNOPARV 2K25, organized by TKIT Warananagar.</p>
+      <p class="award-description">🌟 I am delighted to share that my teammate Pruthviraj Patil and I secured the 2nd Runner-Up 🏆 position in the Code Desk competition at TECHNOPARV 2K25, organized by TKIT Warananagar. The event tested our skills in C, C++, and Java through challenging rounds of problem-solving and debugging. This achievement enhanced my critical thinking, teamwork, and coding proficiency, making it a truly memorable learning experience.</p>
+      <div class="award-details">
+        <span class="award-category">Competition</span>
+        <span class="award-date">2024</span>
+      </div>
+    </div>
+  </div>
+  <!-- Achievement 3 -->
+  <div class="award-card">
+    <div class="award-image">
+      <img
+        src="https://media.licdn.com/dms/image/v2/D4D22AQF8WaKK-Y0kvg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1714466964563?e=1756944000&v=beta&t=PbBLbdF9Lh6gBNPhPGUa7ahjzZfuDS5rbhYUjTNSUgM"
+        alt="1st Rank – JIDNYASA (Project Competition)"
+        onerror="this.parentElement.innerHTML='<div class=\'placeholder-image\'><i class=\'fas fa-trophy\'></i><p>Award Image</p></div>'"
+      />
+    </div>
+    <div class="award-content">
+      <h3 class="award-title">1st Rank – JIDNYASA (Project Competition)</h3>
+      <p class="award-event">National Level Project Competition, TKIET (Autonomous), Warananagar</p>
+      <p class="award-description">Secured 1st Rank in JIDNYASA 2K24 along with teammate Siddharth Kamble, earning a cash prize of ₹3000. This achievement strengthened my skills in project development, innovation, and technical presentation.</p>
+      <div class="award-details">
+        <span class="award-category">Competition</span>
+        <span class="award-date">2024</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="awards-btn-row">
+      <a href="full_achievement.html" class="awards-view-btn">
+        <i class="fas fa-search"></i>
+        View Full Achievements
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="projects-preview" class="projects-preview-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="header-content">
+        <i class="fas fa-rocket rocket-icon"></i>
+        <h2>Featured Projects</h2>
+      </div>
+      <div class="header-underline"></div>
+    </div>
+
+    <div class="projects-preview-grid">
+  <!-- Project 1 -->
+    <div class="project-card">
+        <div class="project-image">
+          <img src="https://i.postimg.cc/8zNWC76x/Screenshot-2025-08-11-194040.png"
+               alt="portfolio website"
+               onerror="this.parentElement.innerHTML='<div class=\'placeholder-image\'><i class=\'fas fa-image\'></i><p>Project Image</p></div>'">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">portfolio website</h3>
+          <p class="project-description">
+           Full-stack portfolio website built with Node.js, Express, EJS, and MongoDB, featuring an admin panel to manage projects, awards, tech stack, and activities, a contact form for messages, and a visitor counter on the homepage.
+          </p>
+          <div class="project-skills">
+            <span class="skills-text">Node.js , Express , EJS , MongoDB</span>
+          </div>
+          
+        </div>
+      </div>
+  <div class="project-preview-card">
+    <div class="project-preview-image">
+      <img
+        src="https://tse3.mm.bing.net/th/id/OIP.iaY-d2Mo82zjexP9TWNrrAHaEz?rs=1&pid=ImgDetMain&o=7&rm=3"
+        alt="Math's Problem Solver"
+        onerror="this.parentElement.innerHTML='<div class=\'placeholder-image\'><i class=\'fas fa-image\'></i><p>Project Image</p></div>'"
+      />
+    </div>
+    <div class="project-preview-content">
+      <h3 class="project-preview-title">Math's Problem Solver</h3>
+      <p class="project-preview-description">
+        SMART MATH’S SOLVER is a Python-based interactive tool that provides step-by-step solutions for various mathematical problems using a Tkinter GUI.
+        It supports equations, calculus, limits, trigonometry, and matrix operations with detailed explanations.
+      </p>
+      <div class="project-preview-skills">
+        <span class="skills-text">Python , tkinter</span>
+      </div>
+    </div>
+  </div>
+  <!-- Project 2 -->
+  <div class="project-preview-card">
+    <div class="project-preview-image">
+      <img
+        src="https://tse1.mm.bing.net/th/id/OIP.WkfLR5ljBkJhuSM1TTnhIAHaFS?rs=1&pid=ImgDetMain&o=7&rm=3"
+        alt="📚 Library Management System in C"
+        onerror="this.parentElement.innerHTML='<div class=\'placeholder-image\'><i class=\'fas fa-image\'></i><p>Project Image</p></div>'"
+      />
+    </div>
+    <div class="project-preview-content">
+      <h3 class="project-preview-title">📚 Library Management System in C</h3>
+      <p class="project-preview-description">
+        This Library Management System in C allows staff to manage books (add, delete, view logs) and students to search, borrow, and return books. It includes secure login, registration, file handling for persistent data, and activity logging.
+      </p>
+      <div class="project-preview-skills">
+        <span class="skills-text">C ,  File handling</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="projects-preview-btn-row">
+      <a href="/full_project.html" class="projects-view-btn">
+        <i class="fas fa-eye"></i>
+        View All Projects
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="connect" class="connect-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="header-content">
+        <i class="fas fa-handshake connect-icon"></i>
+        <h2>Let's Connect</h2>
+      </div>
+      <div class="header-underline"></div>
+    </div>
+
+    <div class="connect-content">
+      <div class="contact-info">
+        <h3><i class="fas fa-envelope"></i> Get In Touch</h3>
+        <p>
+          Feel free to reach out for collaborations, projects, or just a chat!
+        </p>
+
+        <div class="contact-details">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>sushantawalekar286@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>Maharashtra, India</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <h4>Education</h4>
+              <p>B.Tech Computer Science, TKIET</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-buttons">
+          
+          <a href="/resume/SUSHANT BHAIRU AWALEKA1.pdf" class="contact-btn">
+            <i class="fas fa-file-alt"></i> View My Resume
+          </a>
+        </div>
+      </div>
+
+      <div class="social-profiles">
+        <h3><i class="fas fa-share-alt"></i> Connect With Me</h3>
+        <p>Follow me on social media and check out my coding profiles!</p>
+
+        <div class="social-grid">
+          <a
+            href="https://www.linkedin.com/in/sushant-awalekar-a3b13429a/"
+            class="social-card"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+            <h4>LinkedIn</h4>
+            <p>Professional Network</p>
+          </a>
+
+          <a
+            href="https://github.com/sushantawalekar286"
+            class="social-card"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+            <h4>GitHub</h4>
+            <p>Code Repository</p>
+          </a>
+
+          <a
+            href="https://www.instagram.com/sushant_awalekar/"
+            class="social-card"
+            target="_blank"
+          >
+            <i class="fab fa-instagram"></i>
+            <h4>Instagram</h4>
+            <p>Personal Life</p>
+          </a>
+
+          <a
+            href="https://www.facebook.com/sushant.awalekar.56"
+            class="social-card"
+            target="_blank"
+          >
+            <i class="fab fa-facebook"></i>
+            <h4>Facebook</h4>
+            <p>Social Network</p>
+          </a>
+
+          <a
+            href="https://leetcode.com/sushantawalekar286"
+            class="social-card"
+            target="_blank"
+          >
+            <i class="fas fa-code"></i>
+            <h4>LeetCode</h4>
+            <p>Coding Practice</p>
+          </a>
+
+          <a
+            href="https://www.hackerrank.com/sushantawalekar1"
+            class="social-card"
+            target="_blank"
+          >
+            <i class="fas fa-laptop-code"></i>
+            <h4>HackerRank</h4>
+            <p>Problem Solving</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/sushant-awalekar-a3b13429a/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/sush123456789" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/sushant_awalekar/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/sushant.awalekar.1" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+      </div>
+      <p>© 2025 Sushant | All rights reserved.</p>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>

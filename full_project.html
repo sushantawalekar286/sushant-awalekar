@@ -1,0 +1,166 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-left">
+          <span class="brand-name">Sushant Awalekar</span>
+        </div>
+        <div class="nav-right">
+          <a href="home.html"><i class="fa fa-home"></i> Home</a>
+          <a href="home.html#about"><i class="fa fa-user"></i> About</a>
+          <a href="home.html#techstack"><i class="fa fa-cubes"></i> Skills</a>
+          <a href="home.html#awards"
+            ><i class="fa fa-trophy"></i> Awards & Certifications</a
+          >
+          <a href="home.html#projects-preview"
+            ><i class="fa fa-folder-open"></i> Projects</a
+          >
+          <a href="extracurricular.html"><i class="fa fa-users"></i> Activities</a>
+          <a href="home.html#connect"><i class="fa fa-envelope"></i> connect</a>
+        </div>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="home.html"><i class="fa fa-home"></i> Home</a>
+        <a href="home.html#about"><i class="fa fa-user"></i> About</a>
+        <a href="home.html#techstack"><i class="fa fa-cubes"></i> Tech Stack</a>
+        <a href="home.html#awards"
+          ><i class="fa fa-trophy"></i> Awards & Certifications</a
+        >
+        <a href="home.html#projects-preview"
+          ><i class="fa fa-folder-open"></i> Projects</a
+        >
+        <a href="extracurricular.html"><i class="fa fa-users"></i> Activities</a>
+        <a href="home.html#connect"><i class="fa fa-envelope"></i> Contact</a>
+      </div>
+      <div class="mobile-overlay" id="mobile-overlay"></div>
+    </header>
+<section id="projects" class="projects-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="header-content">
+        <i class="fas fa-rocket rocket-icon"></i>
+        <h2>Featured Projects</h2>
+      </div>
+      <div class="header-underline"></div>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+        <div class="project-card">
+        <div class="project-image">
+          <img src="https://i.postimg.cc/8zNWC76x/Screenshot-2025-08-11-194040.png"
+               alt="portfolio website"
+               onerror="this.parentElement.innerHTML='<div class=\'placeholder-image\'><i class=\'fas fa-image\'></i><p>Project Image</p></div>'">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">portfolio website</h3>
+          <p class="project-description">
+           Full-stack portfolio website built with Node.js, Express, EJS, and MongoDB, featuring an admin panel to manage projects, awards, tech stack, and activities, a contact form for messages, and a visitor counter on the homepage.
+          </p>
+          <div class="project-skills">
+            <span class="skills-label">Skills:</span>
+            <span class="skills-text">Node.js , Express , EJS , MongoDB</span>
+          </div>
+          <a href="https://github.com/sushantawalekar286/Sushant-portfolio" class="project-link" target="_blank">
+            <i class="fab fa-github"></i>
+            GitHub Repo
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.iaY-d2Mo82zjexP9TWNrrAHaEz?rs=1&pid=ImgDetMain&o=7&rm=3"
+               alt="Math's Problem Solver"
+               onerror="this.parentElement.innerHTML='<div class=\'placeholder-image\'><i class=\'fas fa-image\'></i><p>Project Image</p></div>'">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Math's Problem Solver</h3>
+          <p class="project-description">
+            SMART MATH’S SOLVER is a Python-based interactive tool that provides step-by-step solutions for various mathematical problems using a Tkinter GUI.
+            It supports equations, calculus, limits, trigonometry, and matrix operations with detailed explanations.
+          </p>
+          <div class="project-skills">
+            <span class="skills-label">Skills:</span>
+            <span class="skills-text">Python , tkinter</span>
+          </div>
+          <a href="https://github.com/sushantawalekar286/math-s-problem-solver" class="project-link" target="_blank">
+            <i class="fab fa-github"></i>
+            GitHub Repo
+          </a>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.WkfLR5ljBkJhuSM1TTnhIAHaFS?rs=1&pid=ImgDetMain&o=7&rm=3"
+               alt="📚 Library Management System in C"
+               onerror="this.parentElement.innerHTML='<div class=\'placeholder-image\'><i class=\'fas fa-image\'></i><p>Project Image</p></div>'">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">📚 Library Management System in C</h3>
+          <p class="project-description">
+            This Library Management System in C allows staff to manage books (add, delete, view logs) and students to search, borrow, and return books. It includes secure login, registration, file handling for persistent data, and activity logging.
+          </p>
+          <div class="project-skills">
+            <span class="skills-label">Skills:</span>
+            <span class="skills-text">C ,  File handling</span>
+          </div>
+          <a href="https://github.com/sushantawalekar286/library-management-system" class="project-link" target="_blank">
+            <i class="fab fa-github"></i>
+            GitHub Repo
+          </a>
+        </div>
+      </div>
+
+      
+
+    </div>
+    <div class="back-to-home">
+      <a href="/home.html" class="back-btn">
+        <i class="fas fa-arrow-left"></i>
+        Back to Home
+      </a>
+    </div>
+  </div>
+</section>
+ 
+ 
+ 
+ 
+ <footer>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/sushant-awalekar-a3b13429a/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/sush123456789" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/sushant_awalekar/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/sushant.awalekar.1" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+      </div>
+      <p>© 2025 Sushant | All rights reserved.</p>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
