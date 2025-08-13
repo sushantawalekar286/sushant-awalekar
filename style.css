@@ -4680,8 +4680,8 @@ footer p {
     align-items: center;
   }
   .right-image img {
-    width: 220px;
-    height: 220px;
+    width:300px;
+    height: 300px;
     max-width: 90vw;
     margin: 0 auto;
     display: block;
@@ -4700,8 +4700,8 @@ footer p {
   }
 
   .right-image img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     max-width: 90vw;
     margin: 0 auto;
   }
