@@ -4673,7 +4673,7 @@ footer p {
   }
   .right-image {
     margin-left: 0;
-    margin-bottom: 20px;
+    margin: 20px;
     text-align: center;
     width: 100%;
     justify-content: center;
@@ -4698,7 +4698,7 @@ footer p {
     padding: 10px 0;
     margin: 60px 0 0 0;
   }
-  
+
   .right-image img {
     width: 120px;
     height: 120px;
