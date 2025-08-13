@@ -2829,8 +2829,8 @@ footer p {
     height: 160px;
   }
   .right-image img {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     margin: 10px auto;
     box-shadow:
       0 0 15px 5px #232b5c,
@@ -4700,8 +4700,8 @@ footer p {
   }
 
   .right-image img {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     max-width: 90vw;
     margin: 0 auto;
   }
