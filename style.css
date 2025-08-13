@@ -2735,15 +2735,26 @@ footer p {
 /* Responsive Design for About Section */
 @media (max-width: 768px) {
   .about-content-wrapper {
-    grid-template-columns: 1fr;
-    gap: 30px;
+      grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
   }
-  
+  .about-photo {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
   .photo-container {
     width: 250px;
     height: 350px;
   }
-  
+  .about-text {
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
   .about-intro h3 {
     font-size: 1.6em;
   }
@@ -2782,6 +2793,21 @@ footer p {
   
   .intro-text {
     font-size: 1em;
+  }
+  .about-content-wrapper {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  .about-photo {
+    margin-bottom: 15px;
+  }
+  .about-text {
+    align-items: center;
+    text-align: center;
+    gap: 15px;
   }
   
   .about-details p {
@@ -4638,3 +4664,45 @@ footer p {
     font-weight: 500;
 }
 
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0 0 0;
+    padding: 20px 10px;
+  }
+  .right-image {
+    margin-left: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-image img {
+    width: 220px;
+    height: 220px;
+    max-width: 90vw;
+    margin: 0 auto;
+    display: block;
+  }
+  .left-info {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-container {
+    padding: 10px 0;
+    margin: 60px 0 0 0;
+  }
+  
+  .right-image img {
+    width: 120px;
+    height: 120px;
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+}
